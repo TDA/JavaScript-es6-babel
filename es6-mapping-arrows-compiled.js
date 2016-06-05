@@ -19,4 +19,6 @@ console.log(nums);
 
 console.log(nums);
 
+console.log("Hoping this works");
+
 //# sourceMappingURL=es6-mapping-arrows-compiled.js.map

@@ -10,3 +10,5 @@ var nums = evens.map((v, i) => v + i);
 console.log(nums);
 
 console.log(nums);
+
+console.log("Hoping this works");
