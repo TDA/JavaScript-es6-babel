@@ -17,3 +17,16 @@ for (index in array) {
 
 // so use for-in only for objects and their properties
 // (usually with a hasProperty check)
+
+// cool new looping structure, for-of
+for (var value of array) {
+  console.log("value:", value);
+}
+
+// if you want both keys and values, use the .entries() method of arrays
+for (var [key, val] of array.entries()) {
+  console.log("key, value:", key, val);
+}
+
+// in simpler terms, its the equivalent of the for-in in Python,
+// and for (s:s) in Java
