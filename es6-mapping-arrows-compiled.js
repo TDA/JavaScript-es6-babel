@@ -10,6 +10,14 @@ console.log([1, 2, 3].map(function (n) {
 console.log([1, 2, 3].map(function (n) {
   return n * n;
 }));
+// print evens
+console.log([1, 2, 3, 4].filter(function (n) {
+  return n % 2 == 0;
+}));
+// print odds
+console.log([1, 2, 3, 4].filter(function (n) {
+  return n % 2 == 1;
+}));
 
 var evens = [1, 2, 3, 4];
 var nums = evens.map(function (v, i) {
