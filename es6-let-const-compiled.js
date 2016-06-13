@@ -7,6 +7,7 @@
 
 var x = 5;
 console.log(x);
+var y = 9;
 
 for (var _i = 1; _i < 5; _i++) {
   console.log(_i);
@@ -32,5 +33,10 @@ var z = 6;
 
 // here its available
 console.log(z);
+
+// z is not global
+//console.log(window.z);
+// but y is, try in a browser
+console.log(window.y);
 
 //# sourceMappingURL=es6-let-const-compiled.js.map

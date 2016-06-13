@@ -6,6 +6,7 @@
 // finally, block-scoping
 let x = 5;
 console.log(x);
+var y = 9;
 
 for(let i = 1; i < 5; i++) {
   console.log(i);
@@ -31,3 +32,8 @@ let z = 6;
 
 // here its available
 console.log(z);
+
+// z is not global
+//console.log(window.z);
+// but y is, try in a browser
+console.log(window.y);
