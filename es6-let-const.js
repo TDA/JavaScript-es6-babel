@@ -13,3 +13,12 @@ for(let i = 1; i < 5; i++) {
 
 // i is undefined outside
 //console.log(i);
+
+// look at the same code with var
+for(var i = 1; i < 5; i++) {
+  console.log(i);
+}
+
+// i is defined outside
+console.log(i);
+console.log(i);
