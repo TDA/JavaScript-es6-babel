@@ -36,4 +36,9 @@ console.log(z);
 // z is not global
 //console.log(window.z);
 // but y is, try in a browser
-console.log(window.y);
+//console.log(window.y);
+
+// to define a constant
+const c = 20;
+// try changing value, throws error
+//c = 25;
