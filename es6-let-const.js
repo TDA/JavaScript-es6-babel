@@ -22,3 +22,12 @@ for(var i = 1; i < 5; i++) {
 // i is defined outside
 console.log(i);
 console.log(i);
+
+// let is also hoisted, but u cannot use a variable b4 declaration
+// this is an error
+//console.log(z);
+// still an error
+let z = 6;
+
+// here its available
+console.log(z);

@@ -24,4 +24,13 @@ for (var i = 1; i < 5; i++) {
 console.log(i);
 console.log(i);
 
+// let is also hoisted, but u cannot use a variable b4 declaration
+// this is an error
+//console.log(z);
+// still an error
+var z = 6;
+
+// here its available
+console.log(z);
+
 //# sourceMappingURL=es6-let-const-compiled.js.map
