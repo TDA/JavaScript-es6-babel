@@ -42,3 +42,5 @@ console.log(z);
 const c = 20;
 // try changing value, throws error
 //c = 25;
+// still works regularly, but is a const
+console.log(c + 25);

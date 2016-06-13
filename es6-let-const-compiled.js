@@ -43,5 +43,7 @@ console.log(z);
 var c = 20;
 // try changing value, throws error
 //c = 25;
+// still works regularly, but is a const
+console.log(c + 25);
 
 //# sourceMappingURL=es6-let-const-compiled.js.map
