@@ -44,3 +44,7 @@ const c = 20;
 //c = 25;
 // still works regularly, but is a const
 console.log(c + 25);
+// redeclare, error
+//const c = 22;
+// cannot declare without define
+//const x;
